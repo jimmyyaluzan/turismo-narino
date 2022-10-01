@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+              integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+              crossorigin="anonymous" />
+
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css" />
+        <title>Inicio</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <div id="user-data-profile">
+                <span class="badge badge-light mr-3" id="user-saldo"></span>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="ajustes">Ajustes </span>
+                    </button>
+                    <div class="dropdown-menu" id="main-menu">
+                        <a id="mi-perfil-btn" class="dropdown-item">Mi perfil</a>
+                        <a id="salir-btn" class="dropdown-item" href="index.html">Salir</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="p-4 d-flex justify-content-center">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Sitio</th>
+                        <th scope="col" id="ordenar-clima" data-toogle="tooltip" 
+                            data-placement="top" title="Ordenar por clima">Clima
+                            <span class="fas fa-sort" id="icono-ordenar"></span></th>
+                        <th scope="col">viajes disponibles</th>
+                        <th scope="col">Novedad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Reservar</th>
+
+                </thead>
+
+                <tbody id="lugares-tbody">
+
+                </tbody>
+            </table>
+
+        </main>
+        <div>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.s0BDHsG91x-QJOki8oyZFgHaDr&pid=Api&P=0"
+                 class="img-fluid" width="500" height="500">
+            <h5>LAGUNA DE LA BOLSA CUMBAL</h5>
+            <p>La laguna de Cumbal, también llamada laguna de La Bolsa,está ubicada en la falda del volcán Cumbal, a 3440 metros sobre el nivel del mar.​ Se sitúa a una distancia de 10 kilómetros al oriente de Cumbal, y a 22 kilómetros del municipio de Guachucal con la que se comunica por una vía carreteable.
+
+                Esta laguna se caracteriza por la coloración gris de sus aguas, la temperatura muy baja y la ausencia de oleaje, circundada por vistosas colinas y pequeñas llanuras tapizadas de pastos naturales y de la vegetación propia de los páramos. Entre la fauna característica de la región se encuentran águilas, cusumbos, venados y guaguas; mientras la flora está representada por frailejones, encenillos y cojines.En sus aguas abunda la trucha arcoíris.
+
+                La cuenca de la laguna de Cumbal es pequeña en cuanto a su extensión (9,8 km²) y se encuentra en una zona muy sensible de recarga de acuíferos. La componen dos subcuencas: la de la quebrada Cusculgo y la de la quebrada Capotes. Por medio de infiltración da origen a una intrincada red de manantiales y ojos de agua. El río Cuacé nace a 3425 metros sobre el nivel del mar, como resultado de la infiltración de la laguna de Cumbal.</p>​
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/originals/f2/26/42/f2264264651d9c9410b33f2472d040e1.jpg"
+                 class="img-fluid" width="500" height="500">
+            <h5>BASILICA NUESTRA SEÑORA DEL ROSARIO SANDONA</h5>
+            <p>Este bello monumento histórico arquitectónico construido en 1951, fue el resultado del arduo trabajo realizado por los habitantes 
+                sandoneños que liderados por el padre Luis Rodriguez organizaron un sin número de actividades para reunir fondos y costear su construcción.
+                A pesar de la accidentada situación que se viviera años atrás en su proceso de levantamiento, donde nueve niñas de grado segundo quienes se 
+                encontraban presentes en el lugar haciendo oración en compañia de sus profesoras como era costubre diaria, se convirtieron en víctimas inocentes
+                del desplome de nuestra catedral, quedando sepultadas y haciendo parte de la horrible realidad de nuestra historia.
+                Sin embargo y con la tristeza latente continuó la misión de terminar con éxito esta hermosísima obra que hoy en día 
+                es motivo de orgullo y grandeza en nuestro municipio porque guarda en su interior una de las imagenes del Cristo crucificado más grande de Suramérica,
+                el cual está meticulosamente tallado en madera obra del maestro Alfonso Zambrano; esta imágen guarda muchos recuerdos desde hace más de 40 años.</p>​
+        </div>
+        <div>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JfFG2RqeI6py7J7Lt3DQqgHaDi&pid=Api&P=0"
+                 class="img-fluid" width="500" height="500">
+            <h5>EL MORRO TUMACO</h5>
+            <p>Uno de los paisajes más llamativos que se pueden ver en Nariño es el de la playa de El Morro, en Tumaco, donde los viajeros pueden caminar bajo un arco natural de piedra para seguir sintiendo bajo los pies la suavidad de la arena oscura. En la zona se encuentran restaurantes que sirven buena
+                comida de mar y hoteles en madera que les prestan sus servicios a los visitantes.</p>
+        </div>
+        <div>
+            <img src="https://viajandox.com.co/uploads/Laguna%20de%20la%20Cocha_4.jpg"
+                 class="img-fluid" width="500" height="500">  
+            <h5>LAGUNA DE LA COCHA PASTO</h5>
+            <p>La laguna de La Cocha, también llamada lago Guamués, es un gran embalse natural de origen glacial, ubicado en la locación colombiana de El Encano,
+                corregimiento del municipio de Pasto, en el departamento de Nariño (Colombia). Es el segundo cuerpo de agua natural más grande de la nación, después del lago de Tota.</p>
+
+            En el año 2000, mediante el decreto 698 del 18 de abril, Colombia inscribió la laguna de La Cocha o lago Guamués como humedal de importancia nacional e internacional dentro del Convenio de Ramsar, siendo el primero con esta calificación en la región andina colombiana.
+        </div>
+        <div>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.9NNBe395tRMIfuHpuR3egwHaE7&pid=Api&P=0"
+                 class="img-fluid" width="500" height="500">  
+            <h5>SANTA MARIA MAGDALENA ARBOLEDA </h5>
+            <P>En un rincón que parece mágico, cubierto de belleza natural, se encuentra la Ermita Santa María Magdalena, una edificación que data desde 1.970 elaborada completamente en piedra.
+
+
+                Al llegar, una majestuosa construcción que la componen elementos del estilo romano destacado en los arcos soportados por columnas rectangulares, así como en sus ventanales y los pasillos, se levanta entre las montañas nariñenses.  
+
+
+                Esta construcción la componen dos partes, una es el templo de La Ermita y otra es el convento de los Hermanos Menores del Corazón Inmaculado de María. La Casa Parroquial tiene el mismo estilo arquitectónico denominado ecléctico y 
+                adorna la capilla que se destaca entre las montañas de San Lorenzo.</p>
+
+        </div>
+        <div>
+            <img src="https://2.bp.blogspot.com/-7rJ6RoD22LE/WtfYtCJ9NAI/AAAAAAAAAKE/FkkjYFM7H_YhEiqTr_ILyBw2mg223u3ywCLcBGAs/s1600/93169890.jpg"
+                 class="img-fluid" width="500" height="500"> 
+            <h5> PARQUE CENTRAL DE SAN PABLO</h5>
+            <p>Centro poblado y corregimiento de San Pablo, ubicado a 20 minutos del casco urbano; su estilo colonial predomina en sus calles.
+
+                Su parque central es reconocido entre los mejores del departamento de Nariño, el templo parroquial San Antonio de Padua, un atractivo que alberga columnas, bases y cuspe, construidas en piedra tallada. Pinturas Quiteñas del artista Troya del siglo 
+                IXX y XX adornan el museo religioso en la casa cural.</p>
+        </div>
+        <div>
+            <img src="https://comfamiliarnarino.com/wp-content/uploads/2017/11/17-1.jpg"
+                 class="img-fluid" width="500" height="500">     
+            <h5>CAÑON JUANAMBU BUESACO</h5>
+            <P>El Parque Cañón del Juanambú goza de una riqueza natural absoluta, se encuentra ubicado en la ribera del río que lleva su nombre y lo rodea un exuberante y diverso paisaje verde con valor histórico y cultural. 
+
+                Los senderos de este parque fueron testigos de la Batalla de Juanambú, en 1.814. Hoy en día sus visitantes pueden observar los rastros de puentes, trincheras y cuevas que servían de refugio para los soldados cuando el ejército de Simón Bolívar se enfrentó al ejército de la Corona Española. 
+
+                El río que atraviesa el parque es otro escenario para disfrutar, ahí se pueden practicar actividades como rafting, rappel, escalada, senderismo, kayak, canopy y natación. En su interior se encuentran tres piscinas naturales con temperaturas graduales de forma natural, un perfecto descanso bajo el cálido clima de Buesaco. </p>
+
+        </div>
+        <div>
+            <img src="https://www.renunciamosyviajamos.com/wp-content/uploads/2016/12/Santuario-de-las-lajas-Colombia-Renunciamos-y-viajamos-12.jpg"
+                 class="img-fluid" width="500" height="500">
+            <h5>SANTUARIO DE LAJAS</h5>
+            <p>La edificación actual, construida al principio del siglo XX, sustituyó una capilla que databa del Siglo XVIII y es una iglesia de piedra gris y blanca de estilo neogótico, a imitación del gótico del siglo XIV, compuesta de tres naves construidas sobre un puente de dos arcos que cruza sobre el río y que hace de atrio o plaza de la basílica uniéndola con el otro lado del cañón.
+
+                La altura del templo, desde su base hasta la torre es de 100 metros, y el puente mide 50 metros de alto por 17 metros de ancho y 20 metros de largo.
+
+                El edificio principal mide 27.50 m. de fondo por 15 m. de ancho. En el interior, las tres naves están cubiertas con bóvedas de crucería. Tiene mosaicos en fibra de vidrio y en el día, su iluminación la da la luz que se filtra por los vitrales hechos por el alemán Walter Wolf. El fondo o ábside de las tres naves es el muro de piedra natural del cañón y en la nave central se destaca la imagen de la Virgen del Rosario pintada por un autor desconocido en una piedra laja. El basamento del templo propiamente dicho, además de los dos arcos de medio punto del puente, es una cripta a imitación del estilo románico, de tres naves cubiertas con bóvedas de cañón de estructura en piedra sillar y que está dedicada al Sagrado Corazón de Jesús.</p>
+        </div>
+    </body>
+</html>
